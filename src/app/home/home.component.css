@@ -1,0 +1,20 @@
+.font-weight-light{
+    padding-bottom: 20px;
+}
+
+.lead{
+    padding-bottom: 20px;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+div {
+    background-color: rgb(233, 161, 6);
+   
+  }
+
+
+/* .content{
+    white-space: pre-wrap;
+    
+} */

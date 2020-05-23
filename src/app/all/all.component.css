@@ -1,0 +1,16 @@
+.author{
+    
+   
+    font-style: italic;
+}
+
+.lead{
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.card{
+    background-color: teal;
+}

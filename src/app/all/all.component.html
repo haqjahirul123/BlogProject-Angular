@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="p-4">
+    <h2 *ngIf="this.articles.length === 0">No articles Added Yet</h2>
+    <div *ngFor="let article of articles">
+        
+        <div class="card" style="border: none ; padding-bottom: 40px;">
+            <!-- <div><li class="w3-jumbo"><i class="fa fa-home"></i> </li></div> -->
+            <div class="card-body"  style="text-align: left; border: none; ">
+                <h1 (click)="onClick(article.id)">{{article.title}}</h1>
+                <!-- <p class="lead">Aprox time to read: {{article.timeToRead}}min</p> -->
+                <p class="lead author">Article by: {{article.author}}</p>
+                <hr>
+            </div>
+          </div>
+    </div>
+</div>

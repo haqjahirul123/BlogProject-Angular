@@ -1,0 +1,17 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="fa fa-trash" style='font-size:50px;color:red'></div>
+<h2>Delete Article</h2>
+<button class="btn btn-primary" [disabled]="disable" (click)=getArticles()>Access Articel</button> 
+
+<hr>
+<p *ngIf="emptyArr">No articles were Saved</p>
+<div class="list p-2" *ngFor="let article of articles">
+   <div class="card">
+        <div class="card-body" style="text-align: center;">
+            {{article.title}}
+        </div>
+        <button class="btn btn-danger btn-block" (click)="del(article.title)">Delete Article</button>
+      </div>
+</div>
+<

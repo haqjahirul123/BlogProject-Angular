@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    /* background: url('https://cdn.discordapp.com/attachments/135855130900824065/163798792414560258/unknown.png') no-repeat center center fixed; */
+    background: url('./image/book.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }

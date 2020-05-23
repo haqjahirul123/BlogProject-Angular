@@ -1,0 +1,30 @@
+.modal {
+    background-color: teal;
+    opacity: 0.8;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Titan+One');
+
+.text{
+
+
+	display:flex;
+	font-family:'Titan One',cursive;
+	font-size:25px;
+	font-weight:700;
+
+
+	}
+
+.text span{width:100%;position:relative}
+
+.text span:before{
+  background:linear-gradient(45deg,#fc5c7d,#6a82fb,#fc5c7d);
+	height:100%;
+	position:absolute;	
+  width:100%;
+	content:"";
+	mix-blend-mode:screen
+	}
+
+
