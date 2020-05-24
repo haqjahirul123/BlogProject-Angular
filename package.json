@@ -4,6 +4,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "publish": "subpath-as-branch --path dist --branch gh-pages",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
